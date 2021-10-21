@@ -32,9 +32,10 @@ end
 
 describe 'Reverse' do
     it 'should return the word backwards' do
-        result = Solver.reverse
+        result = Solver.reverse("hello")
       expect(result).to eq('olleh')
     end
+end
 
 describe 'Fizzbuzz' do
   it 'Numbers divisible by only 3 should return "fizz' do
