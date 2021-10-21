@@ -30,6 +30,12 @@ describe 'Factorial' do
   end
 end
 
+describe 'Reverse' do
+    it 'should return the word backwards' do
+        result = Solver.reverse
+      expect(result).to eq('olleh')
+    end
+
 describe 'Fizzbuzz' do
   it 'Numbers divisible by only 3 should return "fizz' do
     result = Solver.fizzbuzz(3)
