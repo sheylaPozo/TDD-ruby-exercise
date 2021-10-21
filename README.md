@@ -23,7 +23,7 @@ To get a local copy up and running follow these simple example steps.
 ### Test
 
 ```rb
-rspec
+rspec specs\solver_spec.rb
 ```
 
 ## Authors
