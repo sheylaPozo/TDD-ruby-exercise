@@ -17,3 +17,15 @@ class Solver
       end
 end
   
+    def self.fizzbuzz(num)
+        result = ""
+        if(num % 3 == 0)
+        result = result+"fizz"
+      end
+        if(num % 5 == 0)
+        result= result+"buzz"
+      end
+        if(result =="")
+      end
+    return result
+  end
