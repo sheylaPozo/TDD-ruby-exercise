@@ -31,3 +31,24 @@ describe "Factorial" do
   end
 end
 
+describe "Fizzbuzz" do
+    it 'Numbers divisible by only 3 should return "fizz' do
+        result = Solver.fizzbuzz(3)
+        expect(result).to eq("fizz")
+      end
+
+      it 'Numbers divisible by only 5 should return "buzz"' do
+        result = Solver.fizzbuzz(5)
+        expect(result).to eq("buzz")
+      end
+
+      it 'Numbers divisible by both 3 and 5 should return "fizzbuzz' do
+        result = Solver.fizzbuzz(30)
+        expect(result).to eq("fizzbuzz")
+      end
+
+      it 'Numbers not divisible by both 3 and 5 should return the number itself' do
+        result = Solver.fizzbuzz(7)
+        expect(result).to eq("7")
+      end
+end
