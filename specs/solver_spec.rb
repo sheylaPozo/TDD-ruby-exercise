@@ -31,10 +31,10 @@ describe 'Factorial' do
 end
 
 describe 'Reverse' do
-    it 'should return the word backwards' do
-        result = Solver.reverse("hello")
-      expect(result).to eq('olleh')
-    end
+  it 'should return the word backwards' do
+    result = Solver.reverse('hello')
+    expect(result).to eq('olleh')
+  end
 end
 
 describe 'Fizzbuzz' do

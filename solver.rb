@@ -16,6 +16,10 @@ class Solver
     end
   end
 
+  def self.reverse(word)
+    word.reverse
+  end
+
   def self.fizzbuzz(num)
     result = ''
     result += 'fizz' if (num % 3).zero?
